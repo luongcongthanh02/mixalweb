@@ -1,0 +1,32 @@
+footer {
+    background-color: $primary-main;
+    padding-bottom: 70px;
+
+    img {
+        margin-bottom: 60px;
+    }
+
+    .col-4 {
+        color: $white-color;
+        font-size: $fs-4;
+    }
+
+    .col-8 {
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                font-size: $fs-4;
+                color: $white-color;
+                font-weight: 600;
+                margin-right: 10px;
+
+                &:hover {
+                    color: rgb(211, 211, 211);
+                }
+            }
+        }
+
+    }
+}
