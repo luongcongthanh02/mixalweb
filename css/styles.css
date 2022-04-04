@@ -768,10 +768,14 @@ select {
 }
 
 .filter .button {
+  z-index: 1;
   margin-bottom: 0.75rem;
   border: none;
-  background-color: transparent;
-  color: #222222;
+  padding: 5px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  /* background-color: transparent; */
   font-weight: 600;
   font-size: 1rem;
 }
@@ -1691,3 +1695,15 @@ select {
   /* end of extra pages */
 }
 /* end of min-width 1200px */
+
+/* customize */
+.img-fluid-blog {
+  position: relative;
+  padding: 25px;
+  top: 50;
+  left: 50;
+  background-image: url(/images/bg-dots.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
